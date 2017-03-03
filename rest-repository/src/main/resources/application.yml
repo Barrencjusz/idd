@@ -1,0 +1,18 @@
+logging:
+    level:
+        ROOT: DEBUG
+spring:
+    application:
+      name: rest-repository
+    data:
+      elasticsearch:
+        cluster-nodes: localhost:9300
+---
+spring:
+    profiles: docker
+    data:
+      elasticsearch:
+        cluster-nodes: elasticsearch:9300
+logging:
+    level:
+        ROOT: INFO

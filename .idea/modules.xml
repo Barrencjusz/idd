@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../idd/discovery-server/discovery-server.iml" filepath="$PROJECT_DIR$/../../../idd/discovery-server/discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/idd-docker/idd-docker.iml" filepath="$PROJECT_DIR$/idd-docker/idd-docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nginx/nginx.iml" filepath="$PROJECT_DIR$/nginx/nginx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../idd/page-server/page-server.iml" filepath="$PROJECT_DIR$/../../../idd/page-server/page-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../idd/rest-repository/rest-repository.iml" filepath="$PROJECT_DIR$/../../../idd/rest-repository/rest-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-repository/rest-repository (1).iml" filepath="$PROJECT_DIR$/rest-repository/rest-repository (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/nginx/web-static/web-static.iml" filepath="$PROJECT_DIR$/nginx/web-static/web-static.iml" />
+    </modules>
+  </component>
+</project>

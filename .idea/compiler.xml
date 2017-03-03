@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discovery-server" />
+        <module name="idd-docker" />
+        <module name="page-server" />
+        <module name="rest-repository" />
+        <module name="rest-repository (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="discovery-server" target="1.8" />
+      <module name="idd-docker" target="1.8" />
+      <module name="page-server" target="1.8" />
+      <module name="rest-repository" target="1.8" />
+      <module name="rest-repository (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
