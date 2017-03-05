@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import ActionsSearch from './ActionsSearch';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <ActionsSearch />,
   document.getElementById('root')
 );
