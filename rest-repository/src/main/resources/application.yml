@@ -1,6 +1,6 @@
 logging:
     level:
-        ROOT: DEBUG
+        ROOT: INFO
 spring:
     application:
       name: rest-repository
@@ -13,6 +13,8 @@ spring:
     data:
       elasticsearch:
         cluster-nodes: elasticsearch:9300
-logging:
-    level:
-        ROOT: INFO
+---
+server:
+  port: ${service.rest-repository.port}
+spring:
+  profiles: debug

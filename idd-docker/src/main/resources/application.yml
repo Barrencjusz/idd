@@ -1,0 +1,16 @@
+security:
+  oauth2:
+    client:
+      authentication-scheme: query
+---
+service:
+  rest-repository:
+    scheme: http
+    host: localhost
+spring:
+  profiles: debug
+server:
+  port: ${service.idd-docker.port}
+---
+spring:
+  profiles: development
